@@ -1,0 +1,27 @@
+{
+    "name": "safe-input-select-component",
+    "version": "1.0.2",
+    "description": "Input select",
+    "keywords": [
+        "input-select"
+    ],
+    "homepage": "https://github.com/oliverchb11/input-select",
+    "bugs": {
+        "url": "https://github.com/oliverchb11/input-select",
+        "email": "oliver.charry.216@unisabaneta.edu.co"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Oliver Charry",
+        "email": "oliver.charry.216@unisabaneta.edu.co",
+        "url": "https://github.com/oliverchb11/input-select"
+    },
+    "peerDependencies": {
+        "@angular/common": "^15.1.0",
+        "@angular/core": "^15.1.0"
+    },
+    "dependencies": {
+        "tslib": "^2.3.0"
+    },
+    "sideEffects": false
+}
