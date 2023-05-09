@@ -7,13 +7,19 @@
       "componentes": [
         "dist/componentes"
       ],
+      "grid": [
+        "dist/grid"
+      ],
       "input-select": [
         "dist/input-select"
+      ],
+      "loading": [
+        "dist/loading"
       ]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "strict": false,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,

@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'lib-componentes',
   template: `
-  <button class="btn-minimalista">Haz clic aquí por favor.</button>
+  <button class="btn-minimalista">Haz clic aquí por favor..</button>
   `,
   styles: [
     `

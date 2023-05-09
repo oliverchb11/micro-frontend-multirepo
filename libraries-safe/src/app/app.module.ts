@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 
 import { ComponentesModule } from 'projects/componentes/src/public-api';
 import { InputSelectModule } from 'projects/input-select/src/public-api';
+import { LoadingModule } from 'projects/loading/src/public-api';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { InputSelectModule } from 'projects/input-select/src/public-api';
     BrowserModule,
     AppRoutingModule,
     InputSelectModule,
-    ComponentesModule
+    ComponentesModule,
+    LoadingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
