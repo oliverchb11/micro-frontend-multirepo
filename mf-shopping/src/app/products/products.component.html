@@ -5,6 +5,7 @@
         <app-product-card *ngFor="let product of products" [product]="product"></app-product-card>
     </div>
     <h1>Hola</h1>
-    <gb-input-select></gb-input-select>
-    <safe-loading [color]="'primary'"></safe-loading>
+    <!-- <gb-input-select></gb-input-select> -->
+    <!-- <safe-loading [color]="'primary'"></safe-loading> -->
+    <lib-componentes (sendOutput)="sendInfo('hola')"></lib-componentes>
 </div>

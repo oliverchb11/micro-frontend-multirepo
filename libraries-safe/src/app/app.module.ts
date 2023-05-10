@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { ComponentesModule } from 'projects/componentes/src/public-api';
-import { InputSelectModule } from 'projects/input-select/src/public-api';
+
 import { LoadingModule } from 'projects/loading/src/public-api';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { InputSelectModule } from 'input-select';
+
 
 @NgModule({
   declarations: [

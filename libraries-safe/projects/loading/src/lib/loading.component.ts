@@ -5,7 +5,7 @@ import { ProgressSpinnerMode } from '@angular/material/progress-spinner';
   selector: 'safe-loading',
   template: `
   <h1>Loading...</h1>
-
+  <gb-input-select></gb-input-select>
 <mat-spinner [color]="color"></mat-spinner>
 
   `,  

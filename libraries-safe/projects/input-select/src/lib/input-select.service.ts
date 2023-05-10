@@ -6,4 +6,8 @@ import { Injectable } from '@angular/core';
 export class InputSelectService {
 
   constructor() { }
+
+  public alertarSeleccion(option: string) {
+    return alert(option)
+  }
 }

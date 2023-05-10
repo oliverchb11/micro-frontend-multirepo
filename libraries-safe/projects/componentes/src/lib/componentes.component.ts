@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, Output,EventEmitter } from '@angular/core';
+import { ComponentesService } from './componentes.service';
 
 @Component({
   selector: 'lib-componentes',
   template: `
-  <button class="btn-minimalista">Haz clic aquí por favor..</button>
+  <button class="btn-minimalista" (click)="send('enviado')">Haz clic aquí por favor..</button>
   `,
   styles: [
     `
@@ -29,4 +30,11 @@ import { Component } from '@angular/core';
 })
 export class ComponentesComponent {
 
+  @Output() sendOutput = new EventEmitter<string>();
+  constructor(private componentService: ComponentesService){
+
+  }
+  public send(text: string){
+    this.sendOutput.emit(text)
+  }
 }

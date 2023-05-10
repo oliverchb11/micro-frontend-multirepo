@@ -1,6 +1,6 @@
 {
     "name": "safe-loading",
-    "version": "1.0.3",
+    "version": "1.0.6",
     "description": "Input select",
     "peerDependencies": {
         "@angular/common": "^15.1.0",

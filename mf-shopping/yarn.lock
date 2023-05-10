@@ -5916,6 +5916,13 @@ safe-buffer@5.1.2:
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
 
+safe-componentes@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/safe-componentes/-/safe-componentes-1.0.3.tgz"
+  integrity sha512-2U+bFkZwlfT98rUhkFUolZDuSZp2kV8JuWRj2cbsXKupDajTp45Df6zsOPDVedbOehtnuXM8YYQC3CWpXt93dQ==
+  dependencies:
+    tslib "^2.3.0"
+
 safe-input-select-component@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/safe-input-select-component/-/safe-input-select-component-1.0.2.tgz"
@@ -5923,12 +5930,12 @@ safe-input-select-component@^1.0.2:
   dependencies:
     tslib "^2.3.0"
 
-safe-loading@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/safe-loading/-/safe-loading-1.0.3.tgz"
-  integrity sha512-tVwR9EGd/9Saov9TdAnErP+ingRc1kDhvzWhCOpzaJB3MlerHlvNWe+9I58sxakAc80QBsgt/CsM57aIwTp7gA==
+safe-popups@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/safe-popups/-/safe-popups-1.0.0.tgz"
+  integrity sha512-+CxPFUA25lnQ91GYuR84O/zgOGnJ68VIC/tCwRoktT1SwzKgQAkOKH6dyUzna9bIkcfeArCypVNwdpXBnX4sRg==
   dependencies:
-    "@angular/material" "15.2.9"
+    sweetalert2 "^11.7.5"
     tslib "^2.3.0"
 
 "safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
@@ -6386,6 +6393,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+sweetalert2@^11.7.5:
+  version "11.7.5"
+  resolved "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.7.5.tgz"
+  integrity sha512-RBPKdK8Uf9/bz9r4vy7x6sGqf0MioSXt1po1lAwwcl3AwbjHVTc5S0yud4ZJKU1EhvJFVDrFoqIpHwWERwZJEA==
 
 symbol-observable@4.0.0:
   version "4.0.0"

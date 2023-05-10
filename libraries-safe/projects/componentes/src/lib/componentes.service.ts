@@ -6,4 +6,9 @@ import { Injectable } from '@angular/core';
 export class ComponentesService {
 
   constructor() { }
+
+  
+  public alertarSeleccion(option: string): any {
+    return alert(option)
+  }
 }

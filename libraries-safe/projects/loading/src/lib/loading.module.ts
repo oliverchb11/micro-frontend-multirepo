@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { LoadingComponent } from './loading.component';
 import { MaterialModule } from './material.module';
+import { InputSelectModule } from 'input-select';
+
 
 
 
@@ -9,10 +11,12 @@ import { MaterialModule } from './material.module';
     LoadingComponent
   ],
   imports: [
-    MaterialModule
+    MaterialModule,
+    InputSelectModule
   ],
   exports: [
     LoadingComponent,
+    InputSelectModule
   ]
 })
 export class LoadingModule { }
